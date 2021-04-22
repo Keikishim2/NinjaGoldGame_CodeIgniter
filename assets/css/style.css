@@ -1,0 +1,75 @@
+body {
+  background-image: url('/assets/images/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: gold;
+  text-align: center;
+}
+input {
+  background-image: url('/assets/images/coin.gif');
+}
+.container {
+	overflow: auto;
+	height:200px;
+}
+h2{
+  font-size: xx-large;
+  border: 4px solid gold;
+  width: 150px;
+  text-align: center;
+  margin: 5px auto;
+  padding: 5px;
+}
+h1 {
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+  border: 4px solid gold;
+  width: 150px;
+	font-weight: normal;
+	margin: 25px auto;
+	padding: 2px;
+}
+.wrapper{
+  position:relative;
+	border: 1px inset gray;
+	width: 140px;
+  align-items: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 40px;
+	text-align: center;
+	height: 130px;
+  margin-left: 10px;
+  background-image: url('/assets/images/1.gif');
+  background-size: cover;
+}
+.wrapper form{
+  position: absolute;
+	bottom:40px;
+	left:80px;
+}
+.activity{
+  background-image: url('/assets/images/1.png');
+  background-size: contain;
+  border: 4px outset yellow;
+	width: 930px;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: auto;
+	height: 200px;
+}
+.reset{
+  background-color: red;
+	color:white;
+	font-weight:bold;
+	letter-spacing: 1px;
+	margin: 15px 0;
+	width: 200px;
+}
+.gain {
+	color:yellow;
+}
+.lost {
+	color:red;
+}
